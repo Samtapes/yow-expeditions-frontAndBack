@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      background-color: black;
+      color: #fff;
+  }
+
+  #estrelas {  
+    position: fixed;
+    left: 0.2%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .btn-forms {
+    border-color: white;
+    border-width: 2px;
+}
+
+    /* Custom ScrollBar */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #090909;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(231, 231, 231);
+  }

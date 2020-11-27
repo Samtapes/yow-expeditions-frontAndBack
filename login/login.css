@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.div-login {
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+}
+
+.btn-back{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: transparent;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: transparent;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: transparent;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+  }
+  :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+  }
+  :hover::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+  }
+  :hover:-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+  }
+  :hover:-moz-placeholder { /* Firefox 18- */
+    color: #999;
+  }

@@ -1,0 +1,71 @@
+body {
+  background-image: url('../../images/ezgif.com-optimize.gif');
+}
+
+
+.bg-main {
+    background-color: black;
+}
+
+
+
+.btn-usuario {
+    border-radius: 50%;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.profile-icon {
+  position: absolute;
+  font-size: 33px;
+  left: -1px;
+  top: -1px;
+}
+
+.usuario {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+
+
+/* Section */
+section {
+    min-height: 700px;
+    position: relative;
+  }
+  
+  .titulos {
+    font-size: 60px;
+  }
+
+  .semi-titulos {
+    font-size: 25px;
+  }
+
+  .margin-sec {
+      margin-top: 200px;
+      margin-bottom: 140px;
+  }
+
+
+
+
+  
+.btn-link2 {
+  background-color: black;
+  border: none;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+
+.img-noticia {
+  height: 300px;
+}
